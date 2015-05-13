@@ -1,0 +1,37 @@
+/*    
+Created on     : 18-Apr-2015
+ Last modified  : 08-May-2015
+ Author         : James Colp
+*/
+body{ 
+    padding:0px;
+    margin: 10px;
+    overflow:hidden;
+    background: black;
+    position: relative;
+}
+#container{
+    z-index: 1;
+}
+#infoDisplay{
+    background-color: rgba(255,255,255,.8);
+    
+    z-index: 2;
+    position: absolute;
+    
+    bottom: 10px;
+    left: 10px;
+    right:10px;
+    
+    font-family: 'Ubuntu';
+    font-size: 40px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#reset:hover{
+    float: right;
+    color: blue;
+    cursor: pointer;
+}
